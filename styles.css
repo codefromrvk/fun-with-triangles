@@ -14,14 +14,9 @@ body{
 label,input{
     margin: 0.5rem 0;
     display: block;
-    /* text-align: center; */
+
 }
-label{
-  
-}
-h1{
-    /* text-align: center; */
-}
+
 a{
     color: #919a05;
     margin-right: 0.5rem;
@@ -30,11 +25,12 @@ a{
 }
 .active{
     color: var(--secondary-color);
+    font-weight:600;
 }
 nav{
    
     margin: 1rem 0;
-    /* border:2px solid var(--seconday-color); */
+   
 }
 button{
     background-color: var(--seconday-color);
@@ -45,6 +41,7 @@ button{
 }
 button:hover{
     background-color: rgb(236, 236, 72);
+    cursor: pointer;
 }
 
 
