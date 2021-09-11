@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle quiz</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
     <nav>
         <a href="/istriangle.html">Is Triangle?</a>
-        <a href="/quiz.html">Quiz</a>
+        <a class="active" href="/quiz.html">Quiz</a>
         <a href="/hypotenuse.html">Hypotenuse</a>
         <a href="/area.html">Area</a>
     </nav>
@@ -19,15 +21,16 @@
     <form class="quiz-form" action="/quiz.html">
         <div class="question">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-            <label for="angle1"><input type="radio" name="question1" value="45°"> 45° </label>
-            <label for="angle1"><input type="radio" name="question1" value="60°">60°</label>
-            <label for="angle1"><input type="radio" name="question1" value="90°">90°</label>
+            <label><input style="display: inline;" type="radio" name="question1" value="45°"> 45° </label>
+            <label><input style="display: inline;" type="radio" name="question1" value="60°">60°</label>
+            <label><input style="display: inline;" type="radio" name="question1" value="90°">90°</label>
         </div>
         <div class="question">
             <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-            <label for="angle1"><input type="radio" name="question2" value="obtuse"> obtuse </label>
-            <label for="angle1"><input type="radio" name="question2" value="accute">accute</label>
-            <label for="angle1"><input type="radio" name="question2" value="right angled">right angled</label>
+            <label><input style="display: inline;" type="radio" name="question2" value="obtuse"> obtuse </label>
+            <label><input style="display: inline;" type="radio" name="question2" value="accute">accute</label>
+            <label><input style="display: inline;" type="radio" name="question2" value="right angled">right
+                angled</label>
         </div>
         <button id="submit-button" type="button">Submit</button>
     </form>
