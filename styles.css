@@ -28,8 +28,8 @@ a{
     font-weight:600;
 }
 nav{
-   
-    margin: 1rem 0;
+   font-size: 2rem;
+   margin: 3rem 0;
    
 }
 button{
@@ -40,8 +40,17 @@ button{
     font-weight: bold;
 }
 button:hover{
-    background-color: rgb(236, 236, 72);
+    background-color:#919a05;
     cursor: pointer;
 }
-
-
+.container{
+    background-color: #771e42;
+}
+.footer{
+    margin: auto;
+}
+.footer a {
+   
+    text-decoration: none;
+    color: #919a05;
+  }
