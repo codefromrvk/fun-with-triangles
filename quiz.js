@@ -3,7 +3,7 @@ const submitBtn = document.querySelector("#submit-button");
 const output = document.querySelector("#output");
 
 
-const correctAnswers = ['90°', 'right angled'];
+const correctAnswers = ['90°', 'right angled', 'isosceles', 'Bingo'];
 
 
 
