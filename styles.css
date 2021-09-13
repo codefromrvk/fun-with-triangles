@@ -6,46 +6,91 @@
 body{
     color: var(--seconday-color);
     background-color: var(--primary-color);
-    width: 50vw;
     margin:0 auto;
     font-family: 'Fira Sans', sans-serif;
     text-shadow: 2px 2px black;
+    
+
+}
+.container{
+    margin: 3rem 2rem;
+
+}
+h1{
+    text-align: center;
 }
 label,input{
-    margin: 0.5rem 0;
+    margin: auto;
     display: block;
+    text-align: center;
 
+}
+label{
+    margin: 2rem auto;
+}
+.question label{
+    display: inline;
 }
 
 a{
-    color: #919a05;
     margin-right: 0.5rem;
-
     text-decoration: none;
+
 }
 .active{
     color: var(--secondary-color);
     font-weight:600;
+    background-color: black;
 }
+
+
+
 nav{
-   font-size: 2rem;
-   margin: 3rem 0;
+   font-size: 1.5rem;
+   text-align: center;
+   margin: 2rem;
    
+}
+nav a{
+    background-color: yellow;
+    border-radius: 0.3rem;
+    text-shadow: 0 0 black;
+    padding: 0.3rem;
+    color: black;
+    
+
+}
+.text-sm{
+    display: block;
+color: black;
+text-align: center;
+text-shadow: 0 0 black;
+}
+hr{
+    width: 50%;
+}
+.quiz-form{
+    text-align: center;
 }
 button{
     background-color: var(--seconday-color);
     border-radius: 0.3rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: 0.5rem;
     font-weight: bold;
+    display: block;
 }
 button:hover{
     background-color:#919a05;
     cursor: pointer;
 }
+#output{
+    text-align: center;
+}
 
 .footer{
     margin: auto;
+    text-align: center;
 }
 .footer a {
    
